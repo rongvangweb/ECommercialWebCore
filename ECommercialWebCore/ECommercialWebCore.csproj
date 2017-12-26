@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ECommercial.Application\ECommercial.Application.csproj" />
+    <ProjectReference Include="..\ECommercial.Data.EF\ECommercial.Data.EF.csproj" />
+    <ProjectReference Include="..\ECommercial.Data\ECommercial.Data.csproj" />
+    <ProjectReference Include="..\ECommercial.Infrastructure\ECommercial.Infrastructure.csproj" />
+    <ProjectReference Include="..\ECommercial.Utilities\ECommercial.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
